@@ -1,0 +1,482 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/* css for header */
+
+.header{
+    height: 90px;
+    width: 100%;
+    display:flex;
+    /* background-color:#00bcd4; */
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    /* height:70px; */
+    /* background-color: maroon; */
+    display: flex;
+
+}
+
+
+.header_container{
+    justify-content: space-between;
+}
+
+
+.logo{
+    height: 90px;
+    width: 15%;
+    /* background-color: gold; */
+    font-size: 40px;
+    font-family: Segoe UI;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 90px;
+}
+
+.nav{
+    height: 90px;
+    width: 50%;
+    /* background-color: green; */
+    display: flex;
+}
+
+.nav-item{
+    width: 20%;
+    height: 90px;
+    /* background-color:lawngreen; */
+    font-family: cursive;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.nav-item:hover{
+    background-color:white ;
+    color: teal;
+}
+
+
+.banner{
+    height: 95vh;
+    width: 100%;
+    background-color: wheat;
+    background-image: url('./images/Web-design.jpg');
+    background-size: cover;
+
+}
+
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color:rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.banner_text{
+   height: 300px; 
+   width:50% ;
+   background-color: rgba(38, 165, 197,0.9);
+   font-family: cursive;
+   display:flex;
+   align-items: center;
+   color: lavenderblush;
+}
+.banner_title{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+
+.banner_desc{
+    margin-bottom:15px ;
+}
+
+.padd{
+    padding: 20px;
+    /* background-color: crimson; */
+}
+
+.btn1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+   background-color: transparent;
+    color:white;
+    /* color:black;  */
+    font-weight:bold ;
+    font-family: segeo UI;
+    border:1px solid white ;
+    cursor: pointer;
+    transition: .4s;
+
+}
+.btn1:hover{
+    background-color: white;
+    color: rgba(38, 165, 197,0.9);
+}
+
+.services{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color:rgb(207, 212, 216);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Segoe UI;
+}
+
+.service{
+    height:400px;
+    width:48%;
+    background-color: rgb(252, 250, 250);
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.services_container{
+    margin-top:  50px ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.service_img{
+    width:40%;
+    height: 400px;
+    /* background-color: red;  */
+    display:flex;
+    overflow: hidden; 
+    
+    
+    
+}
+
+
+
+
+.service_details{
+    width: 60%;
+    height:400px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+
+}
+.survice_padd{
+    padding: 20px;
+}
+
+.btn2{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+   background-color: rgb(135, 172, 33);
+    color:white;
+    /* color:black;  */
+    font-weight:bold ;
+    font-family: segeo UI;
+    border:3px solid rgb(39, 33, 33) ;
+    cursor: pointer;
+    transition: .45;
+    
+}
+
+.service_title{
+    margin-bottom: 15px;
+
+}
+
+.service_desc{
+    margin-bottom: 30px;
+}
+
+
+/* css for about */
+
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    flex-direction: column;
+    font-family: fantasy;
+    align-items: center;
+}
+
+.about_container{
+    font-family: Segoe UI;
+    margin-top: 30px;
+    /* background-color:red ; */
+    line-height: 27px;
+    display: inline;
+
+}
+
+.start_text{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(58, 54, 54);
+}
+
+/* css for highlight */
+.highlight{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color:rgb(39, 142, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.highlight_container{
+    justify-content: space-between;
+}
+
+.high_ele{
+    width: 22%;
+    height: 230px;
+    background-color: rgba(7, 22, 54, 0.6);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+	text-align: center;
+	color: white;
+    
+}
+.high_title{
+    font-size: 40px;
+}
+.high_desc{
+    font-size: 25px;
+}
+
+
+.quote{
+   padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(253, 252, 252);
+    justify-content:center;
+    display: flex;
+    font-family: Segoe UI;
+}
+
+
+
+.quote_container{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.quote_title{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+
+}
+
+
+.quote_btn{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+   background-color: rgb(3, 62, 117);
+    color:white;
+    font-weight:bold ;
+    font-family: segeo UI;
+    border:none ;
+    cursor: pointer;
+    transition: .45;
+}
+
+/* css for portfolio */
+
+.portfolio{
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color: rgb(234 236 235);
+
+}
+
+.portfolio_container{
+    width: 100%;
+    flex-wrap: wrap;
+    /* margin-top: 30px; */
+}
+
+.project{
+    width: 25%;
+    height: 400px;
+    background-color: olive;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.project_1{
+    background-image: url(https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+}
+
+.project_2{
+    background-image: url(https://th.bing.com/th/id/R.3af8541305783d7673c5513ebe2897e7?rik=yrwdHWRPWNqzUw&riu=http%3a%2f%2fwww.saga.co.uk%2fcontentlibrary%2fsaga%2fpublishing%2fverticals%2ftravel%2fdestinations%2feurope%2flalaria-beach.jpg&ehk=rY%2fIkE8j7g1LXOgGJNk8Yw1nS%2fEc7LZNaig7p905Jtw%3d&risl=&pid=ImgRaw);
+    background-size: cover;
+    align-items: flex-end;
+
+}
+
+.project_3{
+    background-image: url(https://assets-us-01.kc-usercontent.com/4df0558d-5779-0012-00f2-b3fa06d6c950/59613c91-8a26-4dab-ae86-622eb5fc35a9/Will%20the%20Bitcoin%20bubble%20burst_%20Four%20predictions%20about%20the%20future%20of%20crypto%20Thumb.jpeg?w=350);
+    background-size: cover;
+}
+
+.project_4{
+    background-image: url(https://th.bing.com/th/id/OIP.VOAsWIKOxtvLJGVh_gNSPQHaHa?pid=ImgDet&w=650&h=650&rs=1);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_5{
+    background-image: url(https://universalacademy.com/wp-content/uploads/2018/04/xxxx_spo_ocr-l-soccer-generic-stock-001-480x340.jpg);
+    background-size: cover;
+}
+
+.project_6{
+    background-image: url(http://costoflivingproject.weebly.com/uploads/3/7/1/5/37156231/1608689.jpg);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_7{
+    background-image: url(http://img.kb-cdn.com/imgviewer/NVpIM2ptOHhYRzVmUk5rM1NrNlFxYVV6enV4aGk2UFRJMmxPckdDUUVNYmJwR1A4U1pybkMzdWpWQkdSVzFibUtNQmJuTEVnWnhsRkpCYUVSanhCbW9WWXd1cVVmNERQdlBWYkxId1N3dExOOHJoVFRvQjRWS2dZTUFjZUplblpFclBSVkhybithN29oNmVEa25uam4vMjZ6Q1h5T29wMVVRakFzeU82Snc3b1RCZnpPbDJITEgyZUY2OENxNzZUMG12cmw3R2ZHd3FzVCtBN21jS3YwUT09?square=0);
+    background-size: cover;
+}
+
+.project_8{
+    background-image: url(https://patch.com/img/cdn20/users/22994611/20180808/094647/styles/raw/public/processed_images/classical-music-shutterstock_310517414-1533735614-4225.jpg?width=350);
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.project_title{
+    width: 100%;
+    height: 150px;
+    text-indent: 30px;
+    line-height:150px ;
+    color: white;
+    background-color: rgba(10, 139, 245, 0.5);
+    cursor: pointer;
+    transition:.4s ;
+}
+
+.project_title:hover{
+    height: 400px;
+}
+
+/* css for footer */
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(14, 13, 13);
+    display:flex;
+    justify-content: center;
+
+}
+.footer_child{
+    height: 400px;
+    width: 25%;
+    /* background-color: rgb(27, 25, 25); */
+    font-family: Segoe UI;
+    display: flex;
+    justify-content: center;
+    color: white;
+  
+}
+.footer_child_1{
+    align-items: center;
+    font-style: bold;
+    font-size: 25px;
+}
+
+ul{
+    margin-top: 45px;
+}
+
+
+
+li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    
+}
+
+
+.first{
+    font-size: 25px;
+    
+}
+
+.style1{
+    color: rgb(33, 33, 223);
+}
+
+
+.footer_child_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_container{
+    width: 65%;
+    justify-content: space-between;
+}
+.social_icon{
+    height:48px ;
+    width: 48px;
+    /* background-color:white; */
+    background-size: cover;
+
+}
+
+.si1{
+    background-image: url(./images/OIP.jpg);
+}
+.si2{
+    background-image: url(./images/g.jpg);
+}
+.si3{
+    background-image: url(./images/link.jpg);
+}
+.si4{
+    background-image: url(./images/t.jpg);
+}
